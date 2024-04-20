@@ -16,7 +16,7 @@ body {
     flex-direction: column;
     /* Generic project styles */
     color: #3a3a3a;
-    font-family: 'open-sans', sans-serif;
+    font-family: 'open+sans', sans-serif;
 }
 
 /* Header*/
@@ -29,12 +29,26 @@ header {
     box-shadow: 0 3px 3px #3a3a3a;
 
 }
+header a {
+    text-decoration-line: none;
+    color: whitesmoke;
+
+}
 
 h1 {  
     font-family: "Montserrat", sans-serif;
     font-optical-sizing: auto;
     font-weight: 900;
     font-style: normal;
+
+
+}
+#menu {
+    font-family: 'open+sans';
+    font-size: 110%;
+    letter-spacing: 1px;
+    list-style-type: none;
+    font-weight: 600;
 }
 
 /* Main content */
