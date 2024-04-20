@@ -27,6 +27,9 @@ header {
     z-index: 99;
     width: 100%;
     box-shadow: 0 3px 3px #3a3a3a;
+    display:flex;
+    justify-content: space-between;
+    align-items: baseline;
 
 }
 header a {
@@ -37,18 +40,23 @@ header a {
 
 h1 {  
     font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
     font-weight: 900;
-    font-style: normal;
+    
 
 
 }
 #menu {
-    font-family: 'open+sans';
-    font-size: 110%;
+    font-family: "Montserrat", sans-serif;
+    font-size: 100%;
     letter-spacing: 1px;
     list-style-type: none;
     font-weight: 600;
+}
+#menu > li {
+    margin.bottom :1em;
+}
+.active{
+    border bottom:1px solid color whitesmoke; 
 }
 
 /* Main content */
