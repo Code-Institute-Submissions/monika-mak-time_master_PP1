@@ -10,14 +10,13 @@
 
 }
 
-
 /* General styles */
 body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #3a3a3a;
+    color: #323D48;
     font-family: 'open+sans', sans-serif;
 }
 
@@ -26,29 +25,28 @@ header {
     background-color: rgb(248, 136, 37);
     padding:0 1rem;
     position: fixed;
+    font-size: 80%;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 1px 3px #3a3a3a;
+    box-shadow:  0 2px 3px #323D48;
     display:flex;
     justify-content: space-between;
     align-items: baseline;
     
-
 }
 header a {
     text-decoration-line: none;
-    color: whitesmoke;
-
+    color:white;
 }
 
 h1 {  
     font-family: "Montserrat", sans-serif;
-    font-weight: 900;
-    letter-spacing: 2px;
+    font-weight:700px;
+
 }
 #menu {
     font-family: "Montserrat", sans-serif;
-    font-size: 100%;
+    font-size: 140%;
     letter-spacing: 1px;
     list-style-type: none;
     font-weight: 600;
@@ -64,9 +62,9 @@ nav {
     position: absolute;
     background-color: rgb(248, 136, 37) ;
     width: 100%;
-    left: 0;
+    left: 0%;
     padding: 0 1rem;
-    box-shadow: 0 1px 3px #3a3a3a;
+    box-shadow: 0 2px 3px #323D48;
     display: none;
     top: 100%;
 
@@ -80,15 +78,16 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 2rem;
+    font-size: 1rem;
 }
+
 
 /* Main content */
 main {
     background-color:rgb(204, 216, 206);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 47px;
+    
 }
 
 main {
@@ -98,5 +97,57 @@ main {
 /* Footer */
 footer {
     background-color: rgb(202, 187, 159);
-}
+
+        width:fit-content;
+        padding-right: 1rem;
+    }
     
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #photos {
+        column-count: 2;
+        column-gap: 0;
+    }
+}
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+    nav {
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width:fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu > li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 280%;
+        line-height: 75px;
+        margin: 0 0.5rem;
+    }
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 79px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover{
+        border-bottom: 2px solid white;
+    }
+}
