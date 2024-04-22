@@ -25,10 +25,10 @@ header {
     background-color: rgb(248, 136, 37);
     padding:0 1rem;
     position: fixed;
-    font-size: 80%;
+    font-size: 100%;
     z-index: 99;
     width: 100%;
-    box-shadow:  0 2px 3px #323D48;
+    box-shadow:  0 2px 2px #323D48;
     display:flex;
     justify-content: space-between;
     align-items: baseline;
@@ -46,16 +46,16 @@ h1 {
 }
 #menu {
     font-family: "Montserrat", sans-serif;
-    font-size: 140%;
+    font-size: 125%;
     letter-spacing: 1px;
     list-style-type: none;
-    font-weight: 600;
+    font-weight: 700;
 }
 #menu > li {
-    margin-bottom :1em;
+    margin-bottom :2em;
 }
 .active {
-    border-bottom:1px solid color whitesmoke; 
+    border-bottom:1px solid white; 
 }
 /*nav style withd dropdown toggles */
 nav {
@@ -64,12 +64,12 @@ nav {
     width: 100%;
     left: 0%;
     padding: 0 1rem;
-    box-shadow: 0 2px 3px #323D48;
+    box-shadow: 0 2px 2px #323D48;
     display: none;
     top: 100%;
 
 }
-/* Menu  toggle */
+/* nav  toggle */
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -78,7 +78,7 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 
@@ -87,21 +87,15 @@ main {
     background-color:rgb(204, 216, 206);
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    
+    margin-top: 42px;
 }
 
-main {
-    /* Push main content down to accommodate larger header */
-    margin-top: 79px;
-}
 /* Footer */
 footer {
     background-color: rgb(202, 187, 159);
-
-        width:fit-content;
-        padding-right: 1rem;
     }
-    
+
+
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     #photos {
@@ -133,8 +127,8 @@ footer {
     }
 
     #logo {
-        font-size: 280%;
-        line-height: 75px;
+        font-size: 200%;
+        line-height: 40px;
         margin: 0 0.5rem;
     }
 
