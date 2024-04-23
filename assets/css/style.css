@@ -7,12 +7,12 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
 }
 
 /* General styles */
 body {
-    min-height: 100vh;
+    min-height: 100%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -22,17 +22,16 @@ body {
 
 /* Header*/
 header {
+    min-height: 60px;
     background-color: rgb(248, 136, 37);
     padding: 0 1rem;
     position: fixed;
-    font-size: 100%;
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #323D48;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
-
+    align-items: center;
 }
 
 header a {
@@ -43,7 +42,6 @@ header a {
 h1 {
     font-family: "Montserrat", sans-serif;
     font-weight: 700px;
-
 }
 
 #menu {
@@ -72,7 +70,6 @@ nav {
     box-shadow: 0 1px 2px #323D48;
     display: none;
     top: 100%;
-
 }
 
 /* nav  toggle */
@@ -86,42 +83,44 @@ nav {
 
 .nav-toggle-label {
     font-size: 2rem;
+    color: white;
 }
 
 
 /* Main content */
 main {
-    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
-    margin-top: 42px;
+    margin-top: 47px;
 }
 
-/*Hero section */
-
-/*background: url('../images/biz_woman.webp') no-repeat right center/cover;*/
-
-#hero-image {
-    background: url('../images/biz_woman.webp');
-    min-height: 500px; 
-    width: 50%; 
-    height: 50%;
+.hero {
+    display: flex;
+    align-items: center;
+    height: 55vh;
+    padding: 30px;
+    box-sizing: border-box;
+    /*justify-content: space-between;*/
 }
 
-.hero-content {
-    flex: 1;
-    text-align: left;
-    padding-right: 50px;
-  }
+.hero-text {
+    width: 50%;
+    font-size: 2.5em;
+    color: #1e2124;
+}
 
-  .hero-content h2 {
-    font-size: 2.5em; /* Adjust to match the design */
-    color:#1e2124 ; 
-    }
-    #text_red {
-    color:#ED452B;
-    }   
+.text_red {
+    color: #ED452B;
+}
 
+.hero-image {
+    width: 50%;
+}
 
+.hero-image img {
+
+    width: 100%;
+    height: auto;
+}
 
 /* Footer */
 footer {
@@ -135,22 +134,30 @@ footer {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-links i {
     color: #323D48;
     font-size: 150%;
     padding: 5%;
+}
+
+@media (max-width: 768px) {/* smaller screens, center text */
+    .hero {
+        flex-direction: column; 
+        height: auto;
     }
-
-
-
-/* Media query: large or landscape phones (576px and up) */
+    }
+.hero-text{
+    text-align: center; /*centre text on small screens*/
+}
+/* Media query: large or landscape phones (576px and up) 
 @media screen and (min-width: 576px) {
     #photos {
         column-count: 2;
         column-gap: 0;
     }
 }
-
+*/
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -177,17 +184,19 @@ footer {
     }
 
     #logo {
-        font-size: 200%;
-        line-height: 40px;
-        margin: 0 1rem;
+        font-size: 280%;
+        line-height: 60px;
+        margin: 0 0.5rem;
     }
 
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 79px;
+        margin-top: 65px;
     }
+    
 }
+
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
