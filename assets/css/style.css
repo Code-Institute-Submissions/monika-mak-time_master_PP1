@@ -91,12 +91,37 @@ nav {
 
 /* Main content */
 main {
-    background-color: white;
     /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 42px;
-
 }
+
+/*Hero section */
+
+/*background: url('../images/biz_woman.webp') no-repeat right center/cover;*/
+
+#hero-image {
+    background: url('../images/biz_woman.webp');
+    min-height: 500px; 
+    width: 50%; 
+    height: 50%;
+}
+
+.hero-content {
+    flex: 1;
+    text-align: left;
+    padding-right: 50px;
+  }
+
+  .hero-content h2 {
+    font-size: 2.5em; /* Adjust to match the design */
+    color:#1e2124 ; 
+    }
+    #text_red {
+    color:#ED452B;
+    }   
+
+
 
 /* Footer */
 footer {
@@ -163,7 +188,6 @@ footer {
         margin-top: 79px;
     }
 }
-
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
