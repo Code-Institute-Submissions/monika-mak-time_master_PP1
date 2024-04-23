@@ -1,18 +1,16 @@
+/* Google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 
-    /* Google fonts import */
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
-
-
-    /*  wildcard selector to override default styles added by the browser */
-    * {
+/*  wildcard selector to override default styles added by the browser */
+* {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    }
-    
-    /* General styles */
-    body {
+}
+
+/* General styles */
+body {
     min-height: 100%;
     height: 100%;
     display: flex;
@@ -20,10 +18,10 @@
     /* Generic project styles */
     color: #323D48;
     font-family: 'open+sans', sans-serif;
-    }
-    
-    /* Header*/
-    header {
+}
+
+/* Header*/
+header {
     min-height: 60px;
     background-color: rgb(248, 136, 37);
     padding: 0 1rem;
@@ -34,39 +32,39 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    }
-    
-    header a {
+}
+
+header a {
     text-decoration-line: none;
     color: white;
-    }
-    
-    h1 {
-    font-size:150%;
-    font-family:"Montserrat", sans-serif;
+}
+
+h1 {
+    font-size: 150%;
+    font-family: "Montserrat", sans-serif;
     font-weight: 800;
-    
-    }
-    
-    #menu {
+
+}
+
+#menu {
     font-family: "Montserrat", sans-serif;
     font-size: 125%;
     letter-spacing: 1px;
     list-style-type: none;
     font-weight: 700;
-    
-    }
-    
-    #menu>li { 
+
+}
+
+#menu>li {
     align-items: center;
-    }
-    
-    .active {
+}
+
+.active {
     border-bottom: 1px solid white;
-    }
-    
-    /*nav style withd dropdown toggles */
-    nav {
+}
+
+/*nav style withd dropdown toggles */
+nav {
     position: absolute;
     background-color: rgb(248, 136, 37);
     width: 100%;
@@ -75,101 +73,102 @@
     box-shadow: 0 1px 2px #323D48;
     display: none;
     top: 100%;
-    }
-    
-    /* nav  toggle */
-    #nav-toggle:checked~nav {
+}
+
+/* nav  toggle */
+#nav-toggle:checked~nav {
     display: block;
-    }
-    
-    #nav-toggle {
+}
+
+#nav-toggle {
     display: none;
-    }
-    
-    .nav-toggle-label {
+}
+
+.nav-toggle-label {
     font-size: 2rem;
     color: white;
-    }
-    
-    
-    /* Main content */
-    main {
+}
+
+main {
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
-    }
-    
-    .hero {
+}
+
+
+.hero {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
     margin-top: 47px;
     height: 50vh;
-    padding:20px;
-    
-    
-    }
-    
-    .hero-text {
+    padding: 20px;
+
+
+}
+
+.hero-text {
     width: 30%;
     font-size: 2em;
     color: #1e2124;
-    }
-    
-    .text_red {
+}
+
+.text_red {
     color: #ED452B;
-    }
-    
-    .hero-image {
-    width:fit-content;
-    }
-    
-    .hero-image img {
+}
+
+.hero-image {
+    width: fit-content;
+}
+
+.hero-image img {
     size: 130%;
     width: 330px;
     height: auto;
     padding-top: 30px;
-    
-    }
-    
-    /* Footer */
-    footer {
+
+}
+
+/* Footer */
+footer {
     background-color: rgb(204, 216, 206);
-    }
-    
-    #social-links {
+}
+
+#social-links {
     text-align: center;
     padding: 20px 0;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    }
-    
-    #social-links i {
+}
+
+#social-links i {
     color: #323D48;
     font-size: 150%;
     padding: 5%;
-    }
-    
-    @media (max-width: 768px) {
-    
+}
+
+@media (max-width: 768px) {
+
     /* smaller screens, center text */
     .hero {
-        margin-top: 50px;  
+        margin-top: 50px;
         flex-direction: column;
         height: auto;
     }
-    
-    }
-    
-    .hero-text {  
-    text-align: center;
-    }
-    /*centre text on small screens*/
-    
-    
-    /* Media query: tablets and larger (768px and up) */
-    @media screen and (min-width: 768px) {
-    
+
+}
+
+.hero-text {
+    text-align: left;
+}
+
+/*centre text on small screens*/
+
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
     /* Header */
     nav {
         display: block;
@@ -177,66 +176,62 @@
         box-shadow: none;
         width: fit-content;
         padding-right: 1rem;
-    
+
     }
-    
+
     #menu {
         display: flex;
     }
-    
+
     #menu>li {
         padding-left: 1rem;
     }
-    
+
     .nav-toggle-label {
         display: none;
     }
-    
+
     #logo {
         font-size: 280%;
         line-height: 60px;
         margin: 0 0.5rem;
     }
-    
-    
+
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
         margin-top: 79px;
     }
-    
-    
-    }
-    
-    /* Large devices (laptops and desktops, 992px and up) */
-    @media screen and (min-width: 992px) {
+
+
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 2px solid white;
     }
-    }
-    
-    
-    #menu>li {
-        padding-left: 1rem;
-    }
-    
-    .nav-toggle-label {
-        display: none;
-    }
-    
-    #logo {
-        font-size: 280%;
-        line-height: 60px;
-        margin: 0 0.5rem;
-    }
-    
-    
-    /* Main content */
-    main {
-        /* Push main content down to accommodate larger header */
-        margin-top: 79px;
-    }
-    
-    
-    
+}
 
+
+#menu>li {
+    padding-left: 1rem;
+}
+
+.nav-toggle-label {
+    display: none;
+}
+
+#logo {
+    font-size: 280%;
+    line-height: 60px;
+    margin: 0 0.5rem;
+}
+
+
+/* Main content */
+main {
+    /* Push main content down to accommodate larger header */
+    margin-top: 79px;
+}
