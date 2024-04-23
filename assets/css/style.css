@@ -40,8 +40,10 @@ header a {
 }
 
 h1 {
-    font-family: "Montserrat", sans-serif;
+    font-size:180%;
+    font-family:"Montserrat", sans-serif;
     font-weight: 700px;
+    
 }
 
 #menu {
@@ -120,6 +122,7 @@ main {
 
     width: 100%;
     height: auto;
+    padding-top: 30px;
 }
 
 /* Footer */
@@ -141,23 +144,20 @@ footer {
     padding: 5%;
 }
 
-@media (max-width: 768px) {/* smaller screens, center text */
+@media (max-width: 768px) {
+
+    /* smaller screens, center text */
     .hero {
-        flex-direction: column; 
+        flex-direction: column;
         height: auto;
     }
-    }
-.hero-text{
-    text-align: center; /*centre text on small screens*/
 }
-/* Media query: large or landscape phones (576px and up) 
-@media screen and (min-width: 576px) {
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
+
+    /*.hero-text {
+        text-align: center;
+    centre text on small screens*/
 }
-*/
+
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
@@ -189,12 +189,14 @@ footer {
         margin: 0 0.5rem;
     }
 
+
     /* Main content */
     main {
         /* Push main content down to accommodate larger header */
-        margin-top: 65px;
+        margin-top: 79px;
     }
-    
+
+
 }
 
 /* Large devices (laptops and desktops, 992px and up) */
