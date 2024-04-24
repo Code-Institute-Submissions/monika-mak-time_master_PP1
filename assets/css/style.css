@@ -117,8 +117,20 @@ main {
 .hero-image img {
     size: 8em; /*testing *was 100% before */
     width: 100%;
-    height: auto;
-   
+    height: auto;   
+}
+
+/*excuses section*/
+
+#excuses{
+    display: flex;
+    flex:wrap;
+}
+
+#excuses h2,h3 {
+    
+
+
 }
 
 /* Footer */
