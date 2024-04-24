@@ -121,17 +121,27 @@ main {
 }
 
 /*excuses section*/
-
 #excuses{
+
+}
+
+#excuses_list{
+    background-color: antiquewhite;
     display: flex;
-    flex:wrap;
+    flex-wrap:wrap;
+    justify-content: space-around;
+}
+#excuses_list1{
+    background-color: aquamarine;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
 }
 
-#excuses h2,h3 {
-    
 
 
-}
+
+
 
 /* Footer */
 
@@ -190,6 +200,7 @@ footer {
     }
     /*added padding to create space between pict and text*/
     .hero-image {
+        width: 95%;
         padding-top: 65px;
         padding-left:20px;
     }
