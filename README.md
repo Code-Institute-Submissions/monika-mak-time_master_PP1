@@ -203,6 +203,7 @@ Click [Here](https://help.github.com/en/github/creating-cloning-and-archiving-re
 
 ## Credits
 
+
 ### Code
 
 -   The full-screen hero image code came from this [StackOverflow post](https://stackoverflow.com)
