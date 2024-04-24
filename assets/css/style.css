@@ -43,9 +43,7 @@ h1 {
     font-size: 150%;
     font-family: "Montserrat", sans-serif;
     font-weight: 800;
-
 }
-
 #menu {
     font-family: "Montserrat", sans-serif;
     font-size: 125%;
@@ -89,7 +87,7 @@ nav {
 
 main {
     /* Make main element take up any surplus space to push footer down */
-    flex: 1;
+    flex: 1 0 auto;
     margin-top: 47px;
 }
 
@@ -101,12 +99,14 @@ main {
     justify-content: space-evenly;
     height: 100%;
 }
-/*test to be aligned to the left of the pict */
+
 .hero-text {
-    width: 50vh;
+    font-family: "Montserrat", sans-serif;
+    width: 100%;
     font-size: 2em;
     color: #1e2124;
     margin-top: 70px;
+    padding-left: 50px; 
 }
 
 .text_red {
@@ -115,10 +115,9 @@ main {
 
 .hero-image img {
     size: 100%;
-    width: 50vh;
+    width: 100%;
     height: auto;
-    padding-top: 20px;
-
+   
 }
 
 /* Footer */
@@ -139,5 +138,62 @@ footer {
     color: #323D48;
     font-size: 150%;
     padding: 5%;
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+
+    /* Header */
+    nav {
+        display:block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding-right: 1rem;
+    }
+
+    #menu {
+        display: flex;
+    }
+
+    #menu>li {
+        padding-left: 1rem;
+    }
+
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+
+    #logo {
+        font-size: 280%;
+        line-height: 60px;
+        margin: 0 0.5rem;
+    }
+    #hero {
+        flex-direction: row;
+    }
+    /*added padding to create space between pict and text*/
+    .hero-image {
+        padding-top: 65px;
+        padding-left:20px;
+    
+    }
+
+
+    /* Main content */
+    main {
+        /* Push main content down to accommodate larger header */
+        margin-top: 78px;
+    }
+}
+
+/* Large devices (laptops and desktops, 992px and up) */
+@media screen and (min-width: 992px) {
+    #menu a:hover {
+        border-bottom: 2px solid white;
+    }
 }
 
