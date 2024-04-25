@@ -133,10 +133,14 @@ main {
     color: white;
     text-shadow: 1px 2px black;
 }
-#excuses h3{
+#excuses_vaildation 
+{
+    font: size 1.7em;
+    background-color:beige ;
     display:flex;
-    flex-direction: column;
+    flex-wrap:wrap;
 }
+
 
 
 #excuses_list{
