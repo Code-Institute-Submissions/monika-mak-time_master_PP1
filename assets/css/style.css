@@ -122,6 +122,7 @@ h2{
     size: 8em; /*testing *was 100% before */
     width: 100%;
     height: auto;   
+    
 }
 
 /*excuses section*/
@@ -152,10 +153,11 @@ h3 {font-size: 2em;
     margin-bottom:5%;
     margin-top:5%;
 }
-#excuses_vaildation {
+#excuses_vaildation div {
     background-color: white;
     text-align: center;
     justify-content: space-between;
+    align-items: stretch;
 }
 
 i {
@@ -232,6 +234,8 @@ footer {
         padding-left:20px;
     }
 
+    #top_tips
+
     /* Main content 
     main {
         /* Push main content down to accommodate larger header 
@@ -245,4 +249,4 @@ Large devices (laptops and desktops, 992px and up)
         border-bottom: 2px solid white;
     }
 
-  */}
+*/ 
