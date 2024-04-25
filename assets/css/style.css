@@ -171,11 +171,11 @@ i {
     padding:10%
 }
 .yes {
-    background-color: #323D48;
+    color:orange;
     ;
 }
 .no {
-
+    color:aqua;
 }
 
 
