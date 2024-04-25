@@ -125,36 +125,38 @@ main {
 
     
 #excuses h2 {
-    background-color: rgb(204, 216, 206);
-    font-size: 3em;
+    font-size: 2.7em;
     position: relative;
     text-align: center;
-    padding: 12px;
-    color: white;
-    text-shadow: 1px 2px black;
+    padding:20px 0px 20px;
+    color: #013120;
 }
-#excuses_vaildation 
-{
-    font: size 1.7em;
-    background-color:beige ;
-    display:flex;
-    flex-wrap:wrap;
-}
-
-
 
 #excuses_list{
-    background-color: antiquewhite;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-around;
 }
-#excuses_list1{
-    background-color: aquamarine;
-    display: flex;
-    flex-direction: column;
-    /*justify-content: flex-start;*/
+#excuses_vaildation
+{
+    font: size 1.7em;
+    background-color:white ;
+    display:flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    padding:5px
 }
+h3 {
+    text-align: center;
+    justify-content: center;
+    margin-bottom:5%
+}
+#excuses_vaildation div{
+    padding:10px;
+    text-align: center;
+}
+
+
 
 
 /* Footer */
