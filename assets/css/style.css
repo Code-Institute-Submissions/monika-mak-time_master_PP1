@@ -99,6 +99,7 @@ main {
     flex-direction: column;
     align-items: center;
     height: 100%;
+
 }
 
 
@@ -108,7 +109,7 @@ main {
     font-size: 2.5em;
     color: #1e2124;
     margin-top: 70px;
-    padding-left: 15px; 
+    padding-left: 10%; 
 }
 /*targeting only snd part of the text */
 .text_red {
@@ -131,19 +132,19 @@ main {
     padding:20px 0px 20px;
     color: #013120;
 }
-li, p {
-    line-height:1.6em;
-    font-size: 1.5rem;
-   
-}
 #excuses_list {
     display: flex;
     flex-wrap:wrap;
-    justify-content: space-around;
     padding:9%;
     letter-spacing: 1px;
-   
 }
+
+p {
+    line-height:1.15em;
+    font-size: 1.5rem;
+}
+
+
 #excuses_vaildation
 {
     font-size: 1.7em; 
@@ -171,12 +172,14 @@ i {
     padding:10%
 }
 .yes {
-    color:orange;
+    color: #F9943B;
     ;
 }
 .no {
-    color:aqua;
+    color:#B9CABD ;
 }
+
+
 
 
 /* Footer */
