@@ -97,8 +97,9 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    /*justify-content: space-between; */
     height: 100%;
+    
 }
 
 .hero-text {
@@ -107,7 +108,7 @@ main {
     font-size: 2.5em;
     color: #1e2124;
     margin-top: 70px;
-    padding-left: 29px; 
+    padding-left: 15px; 
 }
 /*targeting only snd part of the text */
 .text_red {
@@ -121,9 +122,22 @@ main {
 }
 
 /*excuses section*/
-#excuses{
 
+    
+#excuses h2 {
+    background-color: rgb(204, 216, 206);
+    font-size: 3em;
+    position: relative;
+    text-align: center;
+    padding: 12px;
+    color: white;
+    text-shadow: 1px 2px black;
 }
+#excuses h3{
+    display:flex;
+    flex-direction: column;
+}
+
 
 #excuses_list{
     background-color: antiquewhite;
@@ -135,12 +149,8 @@ main {
     background-color: aquamarine;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    /*justify-content: flex-start;*/
 }
-
-
-
-
 
 
 /* Footer */
