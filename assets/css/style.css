@@ -128,7 +128,9 @@ h2{
 /*excuses section*/
 
     
-#excuses h2 {
+#excuses h2,
+#top_tips h2 {
+    font-size: 2em;
     position: relative;
     text-align: center;
     padding:20px 0px 20px;
@@ -171,6 +173,41 @@ i {
 .no {
     color:#B9CABD ;
 }
+
+#top_tips{
+    width:90%;
+    margin:20px auto;
+}
+#top_tips h2 {
+    margin-bottom: 20px;
+    text-align: center;
+}
+#clarity>div,
+#focus>div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+#essentials p{
+    padding: 0 20px;
+}
+#essentials hr{
+    border-top:1px solid #323D48;
+    margin: 5px 0;
+}
+#sleep {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #F9943B;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* making it circle*/
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
 
 /* Footer */
 
@@ -234,19 +271,18 @@ footer {
         padding-left:20px;
     }
 
-    #top_tips
+    
 
-    /* Main content 
+
+    /* Main content */
     main {
-        /* Push main content down to accommodate larger header 
+        /*Push main content down to accommodate larger header */
         margin-top: 78px;
     }
-}
+
 
 Large devices (laptops and desktops, 992px and up) 
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 2px solid white;
     }
-
-*/ 
