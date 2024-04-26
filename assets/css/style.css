@@ -9,9 +9,9 @@
     box-sizing: border-box;
 }
 
+
 /* General styles */
 body {
-    
     min-height: 100%;
     height: 100%;
     display: flex;
@@ -25,7 +25,7 @@ body {
 header {
     min-height: 67px; /*make header same size as footer*/
     background-color: rgb(248, 136, 37);
-    padding: 0 1rem;
+    padding: 0 0.4rem;
     position: fixed;
     z-index: 99;
     width: 100%;
@@ -35,16 +35,22 @@ header {
     align-items: center;
 }
 
+/*change burger menu to thite, whilst keeping the other icons dark grey*/
+
+.fa-solid.fa-bars {
+    color:white ;
+}
+
 header a {
     text-decoration-line: none;
     color: white;
 }
 
-h1 {
-    font-size: 1.7rem;
-    letter-spacing: 1;
-    font-family: "Montserrat", sans-serif;
+h1{
     font-weight: 800;
+}
+h1, h2, h3 {
+    font-family: "Montserrat", sans-serif;
 }
 #menu {
     font-family: "Montserrat", sans-serif;
@@ -143,9 +149,8 @@ h2{
     letter-spacing: 1px;
 }
 
-#excuses_vaildation
-{
-    background-color: #323D48;
+#excuses_vaildation {
+   /* background-color: #323D48; */
     display:flex;
     flex-direction: row;
 }
@@ -157,15 +162,14 @@ h3 {
     margin-top:5%;
 }
 #excuses_vaildation div {
-
     text-align: center;
     justify-content: space-evenly;
     align-items: stretch;
 }
 
 i {
-    color:#323D48;
-   padding: 5%;
+     color:#323D48;
+   padding: 5%; 
 }
 .yes {
     color: #F9943B;
@@ -195,7 +199,7 @@ i {
     border-top:1px solid #323D48;
     margin: 5px 0;
 }
-#sleep {
+/*#sleep {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -203,11 +207,11 @@ i {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* making it circle*/
+    /* making it circle<-
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
-}
+}     */
 
 
 /* Footer */
@@ -258,7 +262,7 @@ footer {
 
 
     #logo {
-        font-size: 280%;
+       /* font-size: 280%; */
         line-height: 60px;
         margin: 0 0.5rem;
     }
@@ -272,18 +276,18 @@ footer {
         padding-left:20px;
     }
 
-    
-
 
     /* Main content */
     main {
         /*Push main content down to accommodate larger header */
         margin-top: 78px;
     }
+}
 
 
-Large devices (laptops and desktops, 992px and up) 
+/*Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 2px solid white;
     }
+}
