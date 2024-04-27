@@ -13,6 +13,7 @@
 /* General styles */
 body {
     min-height: 100vh;  /* this pushes footer down*/
+    
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -35,12 +36,6 @@ header {
     font-size: 1.3em;
 }
 
-/*change burger menu to thite, whilst keeping the other icons dark grey*/
-
-.fa-solid.fa-bars {
-    color:white ;
-   
-}
 
 header a {
     text-decoration-line: none;
@@ -80,6 +75,7 @@ nav {
     box-shadow: 0 1px 2px #323D48;
     display: none;
     top: 105%;
+    line-height: 200%;
 }
 /* nav  toggle */
 #nav-toggle:checked~nav {
