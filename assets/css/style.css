@@ -130,7 +130,7 @@ h2 h3 {
     display: flex;
 }
 .hero-image img {
-    flex-grow:2
+    flex-grow:2;
     size: 8em; /*testing *was 100% before */
     width: 100%;
     height: auto;   
