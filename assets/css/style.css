@@ -45,10 +45,13 @@ header a {
 #logo{
     font-weight: 800;
     letter-spacing: 0.3px;
+    color:white;
 }
 h1, h2, h3 {
     font-family: "Montserrat", sans-serif;
 }
+
+
 #menu {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
@@ -98,7 +101,8 @@ main {
     flex: 1 0 auto;
     margin-top: 47px;
 }
-h2 h3 {
+h2, h3 {
+    font-size: 1.7rem; /* font will change with the screen size*/
     color: #1e2124;
     letter-spacing: 1px;
 }
@@ -140,8 +144,9 @@ h2 h3 {
 #top_tips h2 {
     position: relative;
     text-align: center;
-    padding:10% 5% 10% 5%
-    color #013120;
+    padding: 10% 25% 10% 25%;
+    color: #013120;
+
 }
 .excuses_list {
     display: flex;
@@ -172,10 +177,14 @@ i {
    padding: 5%; 
 }
 .yes, .yes h3{
-    color: #DA6907;
+    color: 
 }
 .no, .no h3{
     color:#4F6955
+}
+
+p > a {
+    color : #DA6907;
 }
 
 #top_tips{
@@ -339,7 +348,7 @@ footer {
         /*Push main content down to accommodate larger header */
         margin-top: 78px;
     }
-}
+
 
 /*Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
