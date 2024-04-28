@@ -102,7 +102,7 @@ main {
     margin-top: 47px;
 }
 h2, h3 {
-    font-size: 1.7rem; /* font will change with the screen size*/
+    font-size: 1.8rem ;/* font will change with the screen size*/
     color: #1e2124;
     letter-spacing: 1px;
 }
@@ -138,27 +138,32 @@ h2, h3 {
   }
 
 /*excuses section*/
+#excuses h2 {
 
-    
+    background-color: #B9CABD;
+}
+
 #excuses h2,
 #top_tips h2 {
     position: relative;
     text-align: center;
-    padding: 10% 25% 10% 25%;
     color: #013120;
 
 }
 .excuses_list {
-    display: flex;
-    flex-wrap:wrap;
-    padding: 10% 5% 15% 15%;
+    flex:1;
+    padding: 10% 5% 15%15%;
     letter-spacing: 1px;
+
 }
 
 #excuses_vaildation {
-   /* background-color: #323D48; */
+  
+   
     display:flex;
     flex-direction: row;
+   
+    
 }
 h3 {
     text-align: center;
@@ -167,17 +172,23 @@ h3 {
     margin-top:5%;
 }
 #excuses_vaildation div {
+    display: flex;
+    flex-wrap: wrap;
     text-align: center;
-    justify-content: space-evenly;
-   
+    justify-content: center;
+
 }
 
 i {
      color:#323D48;
    padding: 5%; 
 }
-.yes, .yes h3{
-    color: 
+.yes, .no {
+    display:flex;
+
+}
+.yes, .yes h3{ 
+    color: #DA6907
 }
 .no, .no h3{
     color:#4F6955
@@ -319,9 +330,15 @@ footer {
 
 
     #logo {
-       /* font-size: 280%; */
+
         line-height: 60px;
         margin: 0 0.5rem;
+    }
+
+      /* Main content */
+      main {
+        /*Push main content down to accommodate larger header */
+        margin-top: 78px;
     }
     .hero {
         max-width: 100%;
@@ -341,13 +358,14 @@ footer {
         padding-top: 59px;
         padding-left: 20px;
     }
-}
+    
 
-    /* Main content */
-    main {
-        /*Push main content down to accommodate larger header */
-        margin-top: 78px;
+    #excuses h2 {
+        padding: 10% 2px 10% 2px;
+       
     }
+
+
 
 
 /*Large devices (laptops and desktops, 992px and up) */
