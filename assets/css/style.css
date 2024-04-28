@@ -141,15 +141,10 @@ h2, h3 {
 #excuses h2 {
 
     background-color: #B9CABD;
-}
-
-#excuses h2,
-#top_tips h2 {
-    position: relative;
+    color:white;
     text-align: center;
-    color: #013120;
-
 }
+
 .excuses_list {
     flex:1;
     padding: 10% 5% 15%15%;
@@ -176,6 +171,7 @@ h3 {
     flex-wrap: wrap;
     text-align: center;
     justify-content: center;
+    margin-bottom: 10%;
 
 }
 
@@ -185,6 +181,8 @@ i {
 }
 .yes, .no {
     display:flex;
+   align-content: center;
+
 
 }
 .yes, .yes h3{ 
@@ -194,15 +192,24 @@ i {
     color:#4F6955
 }
 
+p #excuses_vaildation {
+    letter-spacing: 1px;
+}
+
 p > a {
     color : #DA6907;
 }
+
+
+
+
 
 #top_tips{
     width:90%;
     margin:20px auto;
 }
 #top_tips h2 {
+    margin-top: 30%; 
     margin-bottom: 20px;
     text-align: center;
 }
