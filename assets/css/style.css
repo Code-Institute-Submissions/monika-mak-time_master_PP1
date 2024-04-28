@@ -33,7 +33,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.3em;
+    font-size: 1.2em;
 }
 
 
@@ -54,6 +54,7 @@ h1, h2, h3 {
     letter-spacing: 1px;
     list-style-type: none;
     font-weight: 700;
+    font-size: 110%;
 }
 
 #menu>li {
@@ -75,7 +76,8 @@ nav {
     box-shadow: 0 1px 2px #323D48;
     display: none;
     top: 105%;
-    line-height: 200%;
+    line-height: 200%;  
+/* expands menu for better user experience*/
 }
 /* nav  toggle */
 #nav-toggle:checked~nav {
@@ -92,44 +94,44 @@ nav {
 }
 
 main {
-    /* Make main element take up any surplus space to push footer down */
+/* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 47px;
 }
-
-#hero {
-    display: flex;
-    flex-direction: column;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    align-items: center;
-}
-.hero-text {
-    flex-grow: 1;
-    width: 100%;
-    margin-top: 70px;
-    padding-left: 10px; 
-    padding-bottom: 10px
-}
-/*targeting only snd part of the text */
-.text_red {
-    color: #ED452B;
-}
-
 h2 h3 {
     color: #1e2124;
     letter-spacing: 1px;
 }
 
-.hero-image{
+.hero{
     display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    }
+
+.hero-text {
+  
+    flex-grow: 1;
+    margin-top: 70px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+
+ 
 }
-.hero-image img {
-    flex-grow:2;
-    size: 8em; /*testing *was 100% before */
-    width: 100%;
-    height: auto;   
+/*targeting only snd part of the text */
+.text_red {
+    color: #ED452B;
 }
+.hero-image {
+    flex-grow: 2;
+  }
+
+  .hero-image img {
+    width: 100%; /* Responsive and scales with its container */
+    height: auto;
+  }
 
 /*excuses section*/
 
@@ -285,7 +287,6 @@ footer {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
 
-
     /* Header */
     nav {
         display:flex;
@@ -313,16 +314,25 @@ footer {
         line-height: 60px;
         margin: 0 0.5rem;
     }
-    #hero {
+    .hero {
+        max-width: 100%;
         flex-direction: row;
+        justify-content: space-between; /* Ensures content is spaced properly */
+        align-items: center;
+
+    }
+    .hero-text{
+        margin-top: 40px;
+        font-size: 3vw;
+        padding-left: 40px;
     }
     /*added padding to create space between pict and text*/
     .hero-image {
-        width: 95%;
-        padding-top: 65px;
-        padding-left:20px;
+        max-width: 60vw;
+        padding-top: 59px;
+        padding-left: 20px;
     }
-
+}
 
     /* Main content */
     main {
@@ -330,7 +340,6 @@ footer {
         margin-top: 78px;
     }
 }
-
 
 /*Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
