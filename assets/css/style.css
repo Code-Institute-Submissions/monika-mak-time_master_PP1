@@ -1,3 +1,5 @@
+/*google style import */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*  wildcard selector to override default styles added by the browser */
 * {
@@ -107,7 +109,7 @@ h2, h3 {
     letter-spacing: 1px;
 }
 
-.hero{
+#hero{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -345,12 +347,11 @@ footer {
         /*Push main content down to accommodate larger header */
         margin-top: 78px;
     }
-    .hero {
+    #hero {
         max-width: 100%;
         flex-direction: row;
         justify-content: space-between; /* Ensures content is spaced properly */
         align-items: center;
-
     }
     .hero-text{
         margin-top: 40px;
