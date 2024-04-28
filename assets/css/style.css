@@ -51,7 +51,6 @@ h1, h2, h3 {
     font-family: "Montserrat", sans-serif;
 }
 
-
 #menu {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
@@ -140,8 +139,8 @@ height: auto;
 /*excuses section*/
 
 #excuses h2 {
-    background-color: #323D48 ;
-    color:white;
+   
+    color:#323D48;
     text-align: center;
     padding:5px;
 }
@@ -153,6 +152,7 @@ height: auto;
     align-items:center;
     padding: 50px;
     letter-spacing: 1px;
+    background-color:rgb(204, 216, 206);
 }
 
 h3 {
