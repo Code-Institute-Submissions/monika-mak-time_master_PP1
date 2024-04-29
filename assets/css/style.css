@@ -43,8 +43,7 @@ header a {
     color: white;
 }
 
-h1,
-h3 {
+h1, h3 {
     font-family: "Montserrat", sans-serif;
     color: #323d48;
     letter-spacing: 1px;
@@ -147,9 +146,9 @@ main {
 }
 
 #excuses>h3 {
-    color: #ed452b;
+    color: white;
     padding: 5% 10%;
-    background-color: rgb(204, 216, 206);
+    background-color: rgb(143 167 147);
 }
 
 .excuses_list {
@@ -211,15 +210,12 @@ p>a {
     color: #DA6907;
 }
 
-
-
 #top_tips {
     width: 90%;
-    margin: 20px auto;
+    margin: 30px auto;
 }
 
 #top_tips h2 {
-    margin-top: 30%;
     margin-bottom: 20px;
     text-align: center;
 }
@@ -229,17 +225,19 @@ p>a {
     line-height: 20px;
     margin-bottom: 20px;
 }
-
-#essentials p {
+.essentials {
+    padding: 0 20px;
+}
+.essentials p {
     padding: 0 20px;
 }
 
-#essentials hr {
+.essentials hr {
     border-top: 1px solid #323D48;
     margin: 5px 0;
 }
 
-/*#sleep {
+/*#tip_sleep {
     display:flex;
     align-items: center;
     justify-content: center;
@@ -264,10 +262,7 @@ p>a {
     flex-grow: 1;
 }
 
-#signup>h2,h3 {
-    color: white;
-    margin-bottom: 20px;
-}
+
 
 #signup-form {
     color: red;
@@ -309,7 +304,7 @@ p>a {
 /* Footer */
 
 footer {
-    background-color: rgb(204, 216, 206);
+    background-color: rgb(143 167 147);
 }
 
 #social-links {
