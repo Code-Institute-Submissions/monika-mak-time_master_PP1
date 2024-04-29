@@ -42,9 +42,11 @@ header a {
     text-decoration-line: none;
     color: white;
 }
-h1,  h3 {
+
+h1,
+h3 {
     font-family: "Montserrat", sans-serif;
-    color: #323d48 ;
+    color: #323d48;
     letter-spacing: 1px;
 }
 
@@ -52,7 +54,7 @@ h1,  h3 {
     font-weight: 800;
     letter-spacing: 0.3px;
     color: white;
-    font-size:29px;
+    font-size: 29px;
 }
 
 
@@ -138,22 +140,24 @@ main {
 
 /*excuses section*/
 
-#excuses h2 {
+#excuses>h2 {
     color: #323D48;
     text-align: center;
-    padding: 10%;
+    padding: 5% 10%,
 }
-.excuses_list h3 {
-color:#white;
+
+#excuses>h3 {
+    color: #ed452b;
+    padding: 5% 10%;
+    background-color: rgb(204, 216, 206);
 }
+
 .excuses_list {
     display: flex;
-    flex-direction: row;
+    align-items: center; 
     flex-wrap: wrap;
-    align-items: center;
-    padding: 30px;
-    letter-spacing: 1px;
-    background-color: rgb(204, 216, 206);
+    padding: 20px 20px 20px 30px;
+    margin-bottom:5%;
 }
 
 
@@ -382,8 +386,13 @@ footer {
         padding-left: 20px;
     }
 
-    .excuses-list {
-        justify-content: space-around;
+    .excuses_list {
+       
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: space-between;
+        padding:5%;
     }
 
     #excuses_vaildation {
@@ -394,9 +403,9 @@ footer {
     }
 
     #excuses h2 {
-        padding: 10% 2px 10% 2px;
-
+        padding: 5% 25%;
     }
+
 
 
 
