@@ -48,6 +48,9 @@ h1, h3 {
     color: #323d48;
     letter-spacing: 1px;
 }
+p {
+    letter-spacing: 0.5px;
+}
 
 #logo {
     font-weight: 800;
@@ -186,14 +189,11 @@ i {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-evenly;
-    padding:0 10%;
+    justify-content:space-around;
+    padding:0 5%;
+    line-height: normal;
 }
 
-div>yes{
-    background-color:#DA6907 ;
-    color: white;
-}
 .yes, .yes h3 {
     color:#DA6907 ;
 }
@@ -202,14 +202,10 @@ div>yes{
     color: #4F6955
 }
 
-p {
-    letter-spacing: 1px;
-}
 
 p>a {
     color: #DA6907;
 }
-
 #top_tips {
     width: 90%;
     margin: 30px auto;
@@ -220,37 +216,32 @@ p>a {
     text-align: center;
 }
 
-#clarity>div,
-#focus>div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
+
 .essentials {
-    padding: 0 20px;
+    display:flex;
+    flex-direction:row;
+    flex-wrap:wrap;
+
 }
 .essentials p {
     padding: 0 20px;
 }
 
-.essentials hr {
-    border-top: 1px solid #323D48;
-    margin: 5px 0;
+.essentials h3{
+    margin-bottom:0px;
 }
 
-/*#tip_sleep {
-    display:flex;
+.essentials hr {
+    border-top: 2px solid #323D48;
+    margin: 5px 25px;
+}
+
+.tip_sleep {
+    display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #F9943B;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* making it circle<-
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
-}     */
 
+}
 
 
 /* Contact Form */
@@ -371,6 +362,15 @@ footer {
         margin-top: 40px;
         font-size: 3vw;
         padding-left: 40px;
+    }
+    .clarity, .focus {
+        display:flex;
+        flex-direction: column;
+        width:100%;
+    }
+    .clarity div, .focus div {
+        width:75%;
+
     }
 
     /*added padding to create space between pict and text*/
