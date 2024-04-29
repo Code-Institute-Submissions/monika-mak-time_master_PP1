@@ -1,5 +1,5 @@
 /*google style import */
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
 
 /*  wildcard selector to override default styles added by the browser */
 * {
@@ -13,9 +13,11 @@
 h1, h2, h3 {
     font-family: "Montserrat", sans-serif;
 }
+
 body {
-    min-height: 100vh;  /* this pushes footer down*/
-    
+    min-height: 100vh;
+    /* this pushes footer down*/
+
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -25,7 +27,8 @@ body {
 
 /* Header*/
 header {
-    min-height: 67px; /*make header same size as footer*/
+    min-height: 67px;
+    /*make header same size as footer*/
     background-color: rgb(248, 136, 37);
     padding: 0 0.6em;
     position: fixed;
@@ -44,10 +47,10 @@ header a {
     color: white;
 }
 
-#logo{
+#logo {
     font-weight: 800;
     letter-spacing: 0.3px;
-    color:white;
+    color: white;
 }
 
 
@@ -72,15 +75,16 @@ nav {
     position: absolute;
     background-color: rgb(248, 136, 37);
     width: 100%;
-    left: 0%;  
+    left: 0%;
     padding: 0px 0px 0px 10px;
-    /*padding: 0 1rem  -testing , original */ 
+    /*padding: 0 1rem  -testing , original */
     box-shadow: 0 1px 2px #323D48;
     display: none;
     top: 105%;
-    line-height: 200%;  
-/* expands menu for better user experience*/
+    line-height: 200%;
+    /* expands menu for better user experience*/
 }
+
 /* nav  toggle */
 #nav-toggle:checked~nav {
     display: block;
@@ -95,136 +99,152 @@ nav {
     color: white;
 }
 
-.fa-solid.fa-burger{
-    color:#fff;
+.fa-solid.fa-burger {
+    color: #fff;
 }
-#main {
-/* Make main element take up any surplus space to push footer down */
+
+main {
+    /* Make main element take up any surplus space to push footer down */
     flex: 1 0 auto;
     margin-top: 67px;
 }
-h2, h3 {
-    font-size: 1.8rem ;/* font will change with the screen size*/
+h1, h2, h3 {
+    font-size: 1.7rem; 
+    /* font will change with the screen size*/
     color: #1e2124;
     letter-spacing: 1px;
 }
 
-#hero{
+#hero {
     display: flex;
-    justify-content: space-between;
+    justify-items: space-between;
     flex-direction: column;
-    margin-top: 10px;
     margin-bottom: 15px;
-    }
+}
 
 .hero-text {
-  
+
     flex-grow: 1;
     margin-top: 70px;
     padding-left: 20px;
     padding-bottom: 10px;
 
- 
+
 }
+
 /*targeting only snd part of the text */
 .text_red {
     color: #ED452B;
 }
+
 .hero-image {
     flex-grow: 2;
-  }
+}
 
 .hero-image img {
-width: 100%; /* Responsive and scales with its container */
-height: auto;
+    width: 100%;
+    /* Responsive and scales with its container */
+    height: auto;
 }
 
 /*excuses section*/
 
 #excuses h2 {
-   
-    color:#323D48;
+
+    color: #323D48;
     text-align: center;
-    padding:5px;
+    padding: 5px;
 }
 
 .excuses_list {
-    display:flex;
-    flex-direction:row;
+    display: flex;
+    flex-direction: row;
     flex-wrap: wrap;
-    align-items:center;
+    align-items: center;
     padding: 50px;
     letter-spacing: 1px;
-    background-color:rgb(204, 216, 206);
+    background-color: rgb(204, 216, 206);
 }
 
 h3 {
     text-align: center;
-    justify-content:space-evenly;
-    margin-bottom:5%;
-    margin-top:5%;
+    justify-content: space-evenly;
+    margin-bottom: 5%;
+    margin-top: 5%;
 }
+
 #excuses_vaildation div {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     text-align: center;
     justify-content: center;
     margin-bottom: 10%;
 
 }
+
 #excuses_vaildation {
     flex-direction: row;
 }
 
 i {
-    color:#323D48;
-    padding: 5%; 
+    color: #323D48;
+    padding: 5%;
 }
 
-.yes, .no {
-    display:flex;
+.yes,
+.no {
+    display: flex;
     align-content: center;
 
 
 }
-.yes, .yes h3{ 
+
+.yes,
+.yes h3 {
     color: #DA6907
 }
-.no, .no h3{
-    color:#4F6955
+
+.no,
+.no h3 {
+    color: #4F6955
 }
 
-p  {
+p {
     letter-spacing: 1px;
 }
 
-p > a {
-    color : #DA6907;
+p>a {
+    color: #DA6907;
 }
 
 
 
-#top_tips{
-    width:90%;
-    margin:20px auto;
+#top_tips {
+    width: 90%;
+    margin: 20px auto;
 }
+
 #top_tips h2 {
-    margin-top: 30%; 
+    margin-top: 30%;
     margin-bottom: 20px;
     text-align: center;
 }
+
 #clarity>div,
 #focus>div {
     line-height: 20px;
     margin-bottom: 20px;
 }
-#essentials p{
+
+#essentials p {
     padding: 0 20px;
 }
-#essentials hr{
-    border-top:1px solid #323D48;
+
+#essentials hr {
+    border-top: 1px solid #323D48;
     margin: 5px 0;
 }
+
 /*#sleep {
     display:flex;
     align-items: center;
@@ -249,8 +269,10 @@ p > a {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
 }
-#signup> h2,h3 {
-    color:white;
+
+#signup>h2,
+h3 {
+    color: white;
     margin-bottom: 20px;
 }
 
@@ -316,12 +338,13 @@ footer {
 
     /* Header */
     nav {
-        display:flex;
+        display: flex;
         position: relative;
         box-shadow: none;
         width: fit-content;
         /*padding-right: 1rem; */
     }
+
     #menu {
         display: flex;
     }
@@ -342,32 +365,37 @@ footer {
         margin: 0 0.5rem;
     }
 
-      /* Main content */
-      main {
+    /* Main content */
+    main {
         /*Push main content down to accommodate larger header */
         margin-top: 78px;
     }
+
     #hero {
         max-width: 100%;
         flex-direction: row;
-        justify-content: space-between; /* Ensures content is spaced properly */
+        justify-content: space-between;
+        /* Ensures content is spaced properly */
         align-items: center;
     }
-    .hero-text{
+
+    .hero-text {
         margin-top: 40px;
         font-size: 3vw;
         padding-left: 40px;
     }
+
     /*added padding to create space between pict and text*/
     .hero-image {
         max-width: 60vw;
         padding-top: 59px;
         padding-left: 20px;
     }
-    .excuses-list{
-        justify-content:space-around;
+
+    .excuses-list {
+        justify-content: space-around;
     }
-  
+
     #excuses_vaildation {
         justify-items: center;
         text-align: center;
@@ -377,16 +405,16 @@ footer {
 
     #excuses h2 {
         padding: 10% 2px 10% 2px;
-       
+
     }
 
 
 
 
-/*Large devices (laptops and desktops, 992px and up) */
-@media screen and (min-width: 992px) {
-    #menu a:hover {
-        border-bottom: 2px solid white;
+    /*Large devices (laptops and desktops, 992px and up) */
+    @media screen and (min-width: 992px) {
+        #menu a:hover {
+            border-bottom: 2px solid white;
+        }
     }
-}
 }
