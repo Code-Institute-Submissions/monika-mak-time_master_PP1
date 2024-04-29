@@ -156,7 +156,7 @@ main {
     display: flex;
     align-items: center; 
     flex-wrap: wrap;
-    padding: 20px 20px 20px 30px;
+    padding: 20px 10px 20px 30px;
     margin-bottom:5%;
 }
 
@@ -168,18 +168,14 @@ h3 {
     margin-top: 5%;
 }
 
-#excuses_vaildation div {
-    display: flex;
-    flex-wrap: wrap;
-    text-align: center;
-    justify-content: center;
-    margin-bottom: 10%;
-
-}
-
 #excuses_vaildation {
-    flex-direction: row;
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    align-items: baseline;
+    margin-bottom: 10%;
 }
+
 
 i {
     color: #323D48;
@@ -189,18 +185,21 @@ i {
 .yes,
 .no {
     display: flex;
-    align-content: center;
-
-
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+    padding:0 10%;
 }
 
-.yes,
-.yes h3 {
-    color: #DA6907
+div>yes{
+    background-color:#DA6907 ;
+    color: white;
+}
+.yes, .yes h3 {
+    color:#DA6907 ;
 }
 
-.no,
-.no h3 {
+.no, .no h3 {
     color: #4F6955
 }
 
@@ -265,8 +264,7 @@ p>a {
     flex-grow: 1;
 }
 
-#signup>h2,
-h3 {
+#signup>h2,h3 {
     color: white;
     margin-bottom: 20px;
 }
@@ -391,23 +389,22 @@ footer {
         display: flex;
         flex-direction: row;
         align-items: baseline;
-        justify-content: space-between;
-        padding:5%;
+        justify-content: space-evenly;
     }
 
+
     #excuses_vaildation {
+
         justify-items: center;
         text-align: center;
         justify-items: center;
         margin-bottom: 10%;
     }
 
-    #excuses h2 {
+    #excuses h2, h3 {
+      /*  font-size: 1.6em;  */
         padding: 5% 25%;
     }
-
-
-
 
 
     /*Large devices (laptops and desktops, 992px and up) */
