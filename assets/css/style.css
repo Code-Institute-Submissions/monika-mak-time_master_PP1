@@ -240,14 +240,20 @@ p>a {
 
 /* Contact Form */
 #signup {
-    /* background-image: url("../images/hourglass.jpg"); */
+    /* background-image: url("../images/hourglass.webp"); */
+    display: flex;
+    
+
     margin-top: 30px;
     text-align: center;
 }
+#signup h2, h3, p {
+    padding:30px 30px;
+}
 
-#signup-form {
+#signup h2 {
     color: red;
-    padding: 30px;
+
 }
 
 .text-input {
@@ -270,7 +276,7 @@ p>a {
     border-radius: 0%;
 }
 
-.join-button {
+.letsgo {
     margin-top: 20px;
     border-radius: 2px;
     padding: 15px 32px;
