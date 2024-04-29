@@ -10,14 +10,10 @@
 
 
 /* General styles */
-h1, h2, h3 {
-    font-family: "Montserrat", sans-serif;
-}
 
 body {
     min-height: 100vh;
     /* this pushes footer down*/
-
     display: flex;
     flex-direction: column;
     /* Generic project styles */
@@ -34,7 +30,7 @@ header {
     position: fixed;
     z-index: 99;
     width: 100%;
-    box-shadow: 0 2px 2px #323D48;
+    box-shadow: 0 2px 2px #323d48;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,11 +42,18 @@ header a {
     text-decoration-line: none;
     color: white;
 }
+h1,  h3 {
+    font-size: 2em;
+    font-family: "Montserrat", sans-serif;
+    color: #323d48 ;
+    letter-spacing: 1px;
+}
 
 #logo {
     font-weight: 800;
     letter-spacing: 0.3px;
     color: white;
+    font-size:29px;
 }
 
 
@@ -77,7 +80,6 @@ nav {
     width: 100%;
     left: 0%;
     padding: 0px 0px 0px 10px;
-    /*padding: 0 1rem  -testing , original */
     box-shadow: 0 1px 2px #323D48;
     display: none;
     top: 105%;
@@ -108,28 +110,18 @@ main {
     flex: 1 0 auto;
     margin-top: 67px;
 }
-h1, h2, h3 {
-    font-size: 1.7rem; 
-    /* font will change with the screen size*/
-    color: #1e2124;
-    letter-spacing: 1px;
-}
 
 #hero {
     display: flex;
-    justify-items: space-between;
     flex-direction: column;
-    margin-bottom: 15px;
 }
 
 .hero-text {
 
     flex-grow: 1;
-    margin-top: 70px;
     padding-left: 20px;
     padding-bottom: 10px;
-
-
+    margin: 10px 0;
 }
 
 /*targeting only snd part of the text */
@@ -150,10 +142,9 @@ h1, h2, h3 {
 /*excuses section*/
 
 #excuses h2 {
-
     color: #323D48;
     text-align: center;
-    padding: 5px;
+    padding: 30px;
 }
 
 .excuses_list {
@@ -388,7 +379,6 @@ footer {
     /*added padding to create space between pict and text*/
     .hero-image {
         max-width: 60vw;
-        padding-top: 59px;
         padding-left: 20px;
     }
 
