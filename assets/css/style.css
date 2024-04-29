@@ -240,8 +240,8 @@ p>a {
 /* Contact Form */
 #signup {
     /* background-image: url("../images/hourglass.jpg"); */
-    
-    max-height: fit-content;
+    margin-top: 30px;
+    text-align: center;
 }
 
 #signup-form {
@@ -261,9 +261,12 @@ p>a {
 
 
 .radio-buttons {
-    width: 100%;
     display: flex;
-    justify-content: space-between;
+    flex-direction:column;
+    flex-wrap:wrap;
+    border-color: #bcc3ca;
+    border-style: solid;
+    border-radius: 0%;
 }
 
 .join-button {
