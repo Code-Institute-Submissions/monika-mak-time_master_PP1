@@ -163,6 +163,7 @@ main {
 }
 
 
+
 h3 {
     text-align: center;
     justify-content: space-evenly;
@@ -333,7 +334,7 @@ footer {
     /* Main content */
     main {
         /*Push main content down to accommodate larger header */
-        margin-top: 78px;
+        margin-top: 67px;
     }
 
     #hero {
@@ -345,8 +346,8 @@ footer {
     }
         /*added padding to create space between pict and text*/
     .hero-image {
-            max-width: 60vw;
-            padding-left: 20px;
+        max-width: 60vw; 
+        padding-left: 20px;
         }
     .hero-text {
         margin-top: 40px;
@@ -366,7 +367,7 @@ footer {
         flex-direction: column;
         align-items: end;
         }
-    }
+
 
     .excuses_list {
 
@@ -397,3 +398,4 @@ footer {
             border-bottom: 2px solid white;
         }
     }
+}
