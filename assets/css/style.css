@@ -170,7 +170,7 @@ h3 {
     margin-top: 5%;
 }
 
-#excuses_vaildation {
+.excuses_vaildation {
     display: flex;
     text-align:center;
     justify-content: center;
@@ -209,13 +209,15 @@ p>a {
 #top_tips {
     width: 90%;
     margin: 30px auto;
-}
+    text-align:center;
+    }
 
-#top_tips h2 {
-    margin-bottom: 20px;
-    text-align: center;
-}
+.tip_sleep {
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
 
+}
 
 .essentials {
     display:flex;
@@ -223,26 +225,17 @@ p>a {
     flex-wrap:wrap;
 
 }
-.essentials p {
+.essentials p, .tip_sleep p{
     padding: 0 20px;
 }
-
-.essentials h3{
-    margin-bottom:0px;
+.essentials h3, .tip_sleep h3 {
+    margin-bottom: 5px;
+    margin-top: 10px;
 }
-
-.essentials hr {
+.essentials hr, .tip_sleep hr {
     border-top: 2px solid #323D48;
     margin: 5px 25px;
 }
-
-.tip_sleep {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-
-}
-
 
 /* Contact Form */
 #signup {
@@ -357,7 +350,11 @@ footer {
         /* Ensures content is spaced properly */
         align-items: center;
     }
-
+        /*added padding to create space between pict and text*/
+    .hero-image {
+            max-width: 60vw;
+            padding-left: 20px;
+        }
     .hero-text {
         margin-top: 40px;
         font-size: 3vw;
@@ -369,18 +366,17 @@ footer {
         width:100%;
     }
     .clarity div, .focus div {
-        width:75%;
-
+        width:70%;
     }
-
-    /*added padding to create space between pict and text*/
-    .hero-image {
-        max-width: 60vw;
-        padding-left: 20px;
+    .focus {
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+        }
     }
 
     .excuses_list {
-       
+
         display: flex;
         flex-direction: row;
         align-items: baseline;
@@ -388,7 +384,7 @@ footer {
     }
 
 
-    #excuses_vaildation {
+    .excuses_vaildation {
 
         justify-items: center;
         text-align: center;
@@ -400,7 +396,7 @@ footer {
       /*  font-size: 1.6em;  */
         padding: 5% 25%;
     }
-
+    
 
     /*Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
@@ -408,4 +404,3 @@ footer {
             border-bottom: 2px solid white;
         }
     }
-}
