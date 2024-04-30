@@ -179,13 +179,16 @@ main {
     text-align:center;
     justify-content: space-between;
     align-items: baseline;
+    background-color: #323D48;
 }
 
 i {
-    size:2px;
+    size:3px;
     color: #323D48;
 }
-
+.fa-solid.fa-arrow-down {
+    size: 10px;
+}
 .yes,
 .no {
     display: flex;
@@ -194,24 +197,33 @@ i {
     justify-content:space-around;
     line-height: 40px;
     font-size:20px;
+    
+    
 }
 
 .yes, .yes>h3 {
     color:white;
     background-color: #8eb196;
+    border-radius: 5px 20px;
 }
 
 
 .no, .no>h3 {
     color: white;
     background-color:coral;
+    border-radius: 5px 20px;
 }
+ .yes>h3, .no>h3 {
+    padding-top:5px;
+    color:  #323D48;
+ }
 
+ 
 
 .yes a {
-    color: #ed452b;
+    color:#323D48;
     font-size: 20px;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: 1px;
 }
 
@@ -307,7 +319,7 @@ i {
 /* Footer */
 
 footer {
-    background-color: #323d48cc;
+    background-color: #323d48;
 }
 
 #social-links {
@@ -403,6 +415,7 @@ footer {
 
     .excuses_vaildation {
         justify-content: space-evenly;
+
     }
 
     #signup{
