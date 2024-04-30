@@ -243,15 +243,23 @@ p>a {
     margin-top: 30px;
     text-align: center;
 }
-#signup>h2, h3, p {
-    padding:20px 20px;
+#signup h2, h3, p {
+    padding:5px 20px;
 }
+.did_you_know{
+    border:2px solid red;
+    width: 1000px;
+    height: 50px;
+    border-radius: 50%;
 
+}
 #signup>h2 {
-    color: red;
-    margin-bottom: 15px;
+    color:#DA6907;
+  
 }
-
+.signup-form >h2 {
+    margin-bottom: 30px;
+}
 
 .radio-buttons {
     display: flex;
@@ -261,19 +269,21 @@ p>a {
     border-style: solid;
     border-radius: 10%;
     margin:0 30px;
+    max-width: 300px;
 }
 
 #manual>h3{
     margin:0 20%;
 
 }
-#form{
+#form{background-color: #323d4842;
     border: 2px solid #323d48;
-    border-radius: 10px;
+    border-radius: 10%;
     padding:10px;
     margin-bottom:20px;
     margin: 0 30px 15%;
     text-align: left;
+    max-width: 300px;
 }
 .text-input {
     color: #834107;
