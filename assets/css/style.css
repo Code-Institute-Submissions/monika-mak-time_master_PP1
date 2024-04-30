@@ -141,7 +141,13 @@ main {
 }
 
 /*excuses section*/
-
+.excuses {
+    display:flex;
+    gap: 50px; /*creating gap across all items*/
+    flex-direction:column;
+    margin-bottom:30px;
+    align-content:space-aroud;
+}
 .excuses_title {
     display:flex;
     flex-direction: column;
@@ -169,6 +175,10 @@ main {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
+    padding-left:20px;
+}
+.excuses_list_1 , .excuses_list_2 {
+    list-style-type: none;
 }
 
 .excuses_vaildation {
