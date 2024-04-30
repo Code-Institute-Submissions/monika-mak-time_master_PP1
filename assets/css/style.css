@@ -43,7 +43,8 @@ header a {
     color: white;
 }
 
-h1, h3 {
+h1,
+h3 {
     font-family: "Montserrat", sans-serif;
     color: #323d48;
     letter-spacing: 1px;
@@ -138,90 +139,100 @@ main {
 
 /*excuses section*/
 .excuses {
-    display:flex;
-    gap: 50px; /*creating gap across all items*/
-    flex-direction:column;
-    margin-bottom:30px;
-  
+    display: flex;
+    gap: 50px;
+    /*creating gap across all items*/
+    flex-direction: column;
+    margin-bottom: 30px;
+
 }
+
 .excuses_title {
-    display:flex;
+    display: flex;
     flex-direction: column;
     justify-content: space-around;
     color: white;
     text-shadow: 1px 0.5px #323d48cc;
     text-align: center;
     line-height: 25px;
-    padding:10px 20px;
-    background-color:  #8eb196;
+    padding: 10px 20px;
+    background-color: #8eb196;
 }
+
 .excuses_title>h3 {
     background-color: white;
     text-shadow: none;
     border: 1px solid #323D48;
     border-radius: 5px 20px;
-    margin:0px 10%;
-} 
+    margin: 0px 10%;
+}
+
 .excuses_title>i {
-    color:#323D48cc
+    color: #323D48cc
 }
 
 .excuses_list {
-    color:#323d48;
+    color: #323d48;
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     align-items: center;
-    padding-left:30px;
+    padding-left: 30px;
 }
 
 .excuses_vaildation {
     display: flex;
-    text-align:center;
+    text-align: center;
     justify-content: space-between;
     align-items: baseline;
     background-color: #323D48;
 }
 
 i {
-    size:3px;
+    size: 3px;
     color: #323D48;
 }
+
 .fa-solid.fa-arrow-down {
     size: 10px;
 }
+
 .yes,
 .no {
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content:space-around;
+    justify-content: space-around;
     line-height: 40px;
-    font-size:20px;
-    
-    
+    font-size: 20px;
+
+
 }
 
-.yes, .yes>h3 {
-    color:white;
+.yes,
+.yes>h3 {
+    color: white;
     background-color: #8eb196;
     border-radius: 5px 20px;
 }
 
 
-.no, .no>h3 {
+.no,
+.no>h3 {
     color: white;
-    background-color:coral;
+    background-color: coral;
     border-radius: 5px 20px;
 }
- .yes>h3, .no>h3 {
-    padding-top:5px;
-    color:  #323D48;
- }
 
- 
+.yes>h3,
+.no>h3 {
+    padding-top: 5px;
+    color: #323D48;
+}
+
+
 
 .yes a {
-    color:#323D48;
+    color: #323D48;
     font-size: 20px;
     font-weight: 600;
     letter-spacing: 1px;
@@ -230,66 +241,56 @@ i {
 #top_tips {
     width: 90%;
     margin: 30px auto;
-    text-align:center;
-    }
+    text-align: center;
+}
 
 .tip_sleep {
     display: flex;
-    flex-direction:column;
+    flex-direction: column;
     justify-content: center;
 
 }
 
 .essentials {
-    display:flex;
-    flex-direction:row;
-    flex-wrap:wrap;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
 }
-.essentials>p, .tip_sleep>p{
+
+.essentials>p,
+.tip_sleep>p {
     padding: 0 20px;
 }
-.essentials>h3, .tip_sleep>h3 {
+
+.essentials>h3,
+.tip_sleep>h3 {
     margin-bottom: 5px;
     margin-top: 10px;
 }
-.essentials hr, .tip_sleep hr {
+
+.essentials hr,
+.tip_sleep hr {
     border-top: 2px solid #323D48;
     margin: 5px 25px;
 }
 
 /* Contact Form */
-#signup>h2 {
-    color:#DA6907; 
-}
-.signup-form >h2 {
-    margin-bottom: 30px;
-}
 
-.radio-buttons{
-    display: flex;
-    flex-direction:column;
-    flex-wrap:wrap;
-    background-color: white;
+
+.signup-form{
+
+    background-color:#364554;
     border: 2px solid #323d48;
     border-radius: 0% 20%;
     padding:8%;
-    margin: 0 30px 11%;
     max-width: 300px;
     text-align: left;
-} 
-
-#manual>h3{
-    margin:0 20%;
+    margin:15px 20px ;
 }
-#form{
-    background-color: #323d48cc;
-    border: 2px solid #323d48;
-    border-radius: 0% 20%;
-    padding:8%;
-    margin: 0 30px 11%;
-    max-width: 300px;
-    text-align: left;
+#form>h2{
+    color:white;
+    margin-bottom: 20px;
 }
 .text-input {
     color:#323d48;
@@ -300,11 +301,22 @@ i {
     border: 1px solid #4F6955;
     border-radius: 1px; 
 }
+.radio-buttons{
+    display: flex;
+    flex-direction:column;
+    flex-wrap:wrap;
+    background-color: white;
+    border: 2px solid #323d48;
+    border-radius: 0% 20%;
+    padding:8%;
+    max-width: 300px;
+    text-align: left;
+} 
 
 
 .letsgo {
     margin-top: 20px;
-    border-radius: 1px;
+    border-radius: 5px;
     padding: 15px 40px;
     font-size: 100%;
     border-radius: 2px;
@@ -314,7 +326,6 @@ i {
 #form>label{
     color:white;
 }
-
 
 /* Footer */
 
@@ -367,6 +378,7 @@ footer {
         line-height: 60px;
         margin: 0 0.5rem;
     }
+
     main {
         flex: 1 0 auto;
         margin-top: 67px;
@@ -379,29 +391,36 @@ footer {
         /* Ensures content is spaced properly */
         align-items: center;
     }
-        /*added padding to create space between pict and text*/
+
+    /*added padding to create space between pict and text*/
     .hero-image {
-        max-width: 65vw; 
+        max-width: 65vw;
         padding-left: 20px;
-        }
+    }
+
     .hero-text {
         margin-top: 40px;
         font-size: 3vw;
         padding-left: 40px;
     }
-    .clarity, .focus {
-        display:flex;
+
+    .clarity,
+    .focus {
+        display: flex;
         flex-direction: column;
-        width:100%;
+        width: 100%;
     }
-    .clarity>div, .focus div {
-        width:70%;
+
+    .clarity>div,
+    .focus div {
+        width: 70%;
     }
+
     .focus {
         display: flex;
         flex-direction: column;
         align-items: end;
-        }
+    }
 
 
     .excuses_list {
@@ -418,14 +437,15 @@ footer {
 
     }
 
-    #signup{
-        display:flex;
+    #signup {
+        display: flex;
         flex-direction: row;
     }
+
     /*Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
-        #menu a:hover{
-        border-bottom: 2px solid white;
+        #menu a:hover {
+            border-bottom: 2px solid white;
         }
     }
 }

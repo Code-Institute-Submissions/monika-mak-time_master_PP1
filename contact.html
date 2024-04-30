@@ -41,15 +41,27 @@
     <!--main content-->
     <main>
         <!--Contact Form-->
-        <h3>Well, No Better Time To Start Than The Present.</h3>
-        <section id="signup">
+        <section class="signup">
             <form class="signup-form" method="post" action="https://formdump.codeinstitute.net">
-                
+                <!-- form input -->
+                <div id="form">
+                    <h2> Get Your Personalized Productivity Guide Right Now !</h2>
+                    <label for="first-name">First Name</label>
+                    <input type="text" name="first_name" id="first-name" class="text-input" required>
+                    <br>
+                    <label for="last-name">Last Name</label>
+                    <input type="text" name="last_name" id="last-name" class="text-input" required>
+                    <br>
+                    <label for="email-address">Email Address</label>
+                    <input type="email" name="email_address" id="email-address" class="text-input" required>
+                </div>
                 <div class="radio-buttons">
-                    <div><h3>Which task seems the hardest for you to adapt to? </h3>
+                    <div>
+                        <h3>Which task seems the hardest for you to adapt to? </h3>
                         <div>
                             <label for="clear_goal"><i class="fa-solid fa-bullseye"></i>Clear Goal</label>
-                            <input type="radio" name="challenging_task" id="clear_goal" value="clear_goal" required checked>
+                            <input type="radio" name="challenging_task" id="clear_goal" value="clear_goal" required
+                                checked>
                         </div>
                         <div>
                             <label for="sleep"><i class="fa-solid fa-bed"></i>Sleep</label>
@@ -57,36 +69,26 @@
                         </div>
                         <div>
                             <label for="one_thing"><i class="fa-solid fa-1"></i>The ONE Thing</label>
-                            <input type="radio" name="challenging_task" id="one_thing" value="one_thing" required checked>
+                            <input type="radio" name="challenging_task" id="one_thing" value="one_thing" required
+                                checked>
                         </div>
                         <div>
                             <label for="plan"><i class="fa-solid fa-clipboard-list"></i>Plan Ahead</label>
                             <input type="radio" name="challenging_task" id="plan" value="plan" required checked>
                         </div>
                         <div>
-                            <label for="no_disctractions"><i class="fa-solid fa-phone-slash"></i>No Disctractions</label>
+                            <label for="no_disctractions"><i class="fa-solid fa-phone-slash"></i>No
+                                Disctractions</label>
                             <input type="radio" name="challenging_task" id="no_disctractions" value="no_disctractions"
                                 required checked>
                         </div>
                     </div>
+                    <button type="submit" class="letsgo">Let's Go!</button>
                 </div>
-                <!-- form input -->
-                    <div id="form">
-                        <h3> Get Your Personalized Productivity Guide Right Now !</h3>
-                        <label for="first-name">First Name</label>
-                        <input type="text" name="first_name" id="first-name" class="text-input" required>
-                        <br>
-                        <label for="last-name">Last Name</label>
-                        <input type="text" name="last_name" id="last-name" class="text-input" required>
-                        <br>
-                        <label for="email-address">Email Address</label>
-                        <input type="email" name="email_address" id="email-address" class="text-input" required>
-                        <br>
-                        <button type="submit" class="letsgo">Let's Go!</button>
-                    </div> 
             </form>
         </section>
     </main>
+
 
     <!-- Footer -->
     <footer>
