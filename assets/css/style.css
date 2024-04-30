@@ -49,10 +49,6 @@ h1, h3 {
     letter-spacing: 1px;
 }
 
-p {
-    letter-spacing: 0.5px;
-}
-
 #logo {
     font-weight: 800;
     letter-spacing: 0.3px;
@@ -146,7 +142,7 @@ main {
     gap: 50px; /*creating gap across all items*/
     flex-direction:column;
     margin-bottom:30px;
-    align-content:space-aroud;
+  
 }
 .excuses_title {
     display:flex;
@@ -155,9 +151,9 @@ main {
     color: white;
     text-shadow: 1px 0.5px #323d48cc;
     text-align: center;
-    line-height: 30px;
+    line-height: 25px;
     padding:10px 20px;
-    background-color: #323D48cc;
+    background-color:  #8eb196;
 }
 .excuses_title>h3 {
     background-color: white;
@@ -175,16 +171,13 @@ main {
     display: flex;
     flex-wrap:wrap;
     align-items: center;
-    padding-left:20px;
-}
-.excuses_list_1 , .excuses_list_2 {
-    list-style-type: none;
+    padding-left:30px;
 }
 
 .excuses_vaildation {
     display: flex;
     text-align:center;
-    justify-content: center;
+    justify-content: space-between;
     align-items: baseline;
 }
 
@@ -199,22 +192,29 @@ i {
     flex-direction: column;
     align-items: center;
     justify-content:space-around;
-    padding:0 5%;
-    line-height: normal;
+    line-height: 40px;
+    font-size:20px;
 }
 
 .yes, .yes>h3 {
-    color:#DA6907 ;
+    color:white;
+    background-color: #8eb196;
 }
+
 
 .no, .no>h3 {
-    color: #4F6955
+    color: white;
+    background-color:coral;
 }
 
 
-p>a {
-    color: #DA6907;
+.yes a {
+    color: #ed452b;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
 }
+
 #top_tips {
     width: 90%;
     margin: 30px auto;
@@ -402,11 +402,7 @@ footer {
 
 
     .excuses_vaildation {
-
-        justify-items: center;
-        text-align: center;
-        justify-items: center;
-        margin-bottom: 10%;
+        justify-content: space-evenly;
     }
 
     #signup{
