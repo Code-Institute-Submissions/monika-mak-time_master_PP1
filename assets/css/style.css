@@ -49,12 +49,6 @@ h1, h3 {
     letter-spacing: 1px;
 }
 
-h3 {
-    text-align: center;
-    justify-content: space-evenly;
-    margin-bottom: 5%;
-    margin-top: 5%;
-}
 p {
     letter-spacing: 0.5px;
 }
@@ -63,9 +57,8 @@ p {
     font-weight: 800;
     letter-spacing: 0.3px;
     color: white;
-    font-size: 29px;
+    font-size: 30px;
 }
-
 
 #menu {
     font-family: "Montserrat", sans-serif;
@@ -149,24 +142,33 @@ main {
 
 /*excuses section*/
 
-#excuses>h2 {
-    color: #323D48;
-    text-align: center;
-    padding: 5% 10%,
-}
-
-#excuses>h3 {
+.excuses_title {
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
     color: white;
-    padding: 5% 10%;
-    background-color: rgb(143 167 147);
+    text-shadow: 1px 0.5px #323d48cc;
+    text-align: center;
+    line-height: 30px;
+    padding:10px 20px;
+    background-color: #323D48cc;
+}
+.excuses_title>h3 {
+    background-color: white;
+    text-shadow: none;
+    border: 1px solid #323D48;
+    border-radius: 5px 20px;
+    margin:0px 10%;
+} 
+.excuses_title>i {
+    color:#323D48cc
 }
 
 .excuses_list {
+    color:#323d48;
     display: flex;
-    align-items: center; 
-    flex-wrap: wrap;
-    padding: 20px 10px 20px 30px;
-    margin-bottom:5%;
+    flex-wrap:wrap;
+    align-items: center;
 }
 
 .excuses_vaildation {
@@ -174,13 +176,11 @@ main {
     text-align:center;
     justify-content: center;
     align-items: baseline;
-    margin-bottom: 10%;
 }
 
-
 i {
+    size:2px;
     color: #323D48;
-    padding: 5%;
 }
 
 .yes,
@@ -237,19 +237,7 @@ p>a {
 }
 
 /* Contact Form */
-#signup {
-    /* background-image: url("../images/hourglass.webp"); */
-
-    background-color:
-    padding: 30px 0%;
-    text-align: center;
-}
-#signup h2, h3, p {
-    padding:5px 20px;
-}
-
 #signup>h2 {
-
     color:#DA6907; 
 }
 .signup-form >h2 {
@@ -309,7 +297,7 @@ p>a {
 /* Footer */
 
 footer {
-    background-color: rgb(143 167 147);
+    background-color: #323d48cc;
 }
 
 #social-links {
@@ -411,23 +399,14 @@ footer {
         margin-bottom: 10%;
     }
 
-    #excuses>h2, h3 {
-      /*  font-size: 1.6em;  */
-        padding: 5% 25%;
-    }
-
-
-
     #signup{
         display:flex;
-        flex-direction: row;}
+        flex-direction: row;
     }
-
-    
-
     /*Large devices (laptops and desktops, 992px and up) */
     @media screen and (min-width: 992px) {
-        #menu a:hover {
-            border-bottom: 2px solid white;
+        #menu a:hover{
+        border-bottom: 2px solid white;
         }
     }
+}
