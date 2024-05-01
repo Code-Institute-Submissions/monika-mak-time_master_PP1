@@ -140,7 +140,8 @@ main {
 /*excuses section*/
 .excuses {
     display: flex;
-    gap: 50px;
+   margin-top:15px;
+   gap:10px;
     /*creating gap across all items*/
     flex-direction: column;
     margin-bottom: 30px;
@@ -152,19 +153,20 @@ main {
     flex-direction: column;
     justify-content: space-around;
     color: white;
-    text-shadow: 1px 0.5px #323d48cc;
+    background-color: #323d48bf;
     text-align: center;
     line-height: 25px;
     padding: 10px 20px;
-    background-color: #8eb196;
 }
 
 .excuses_title>h3 {
-    background-color: white;
     text-shadow: none;
-    border: 1px solid #323D48;
+    border: 3px solid #323d48;
+    background-color: #ffffff;
     border-radius: 5px 20px;
     margin: 0px 10%;
+    color:#323D48;
+    padding:5px;
 }
 
 .excuses_title>i {
@@ -172,13 +174,11 @@ main {
 }
 
 .excuses_list {
-    color:white;
+    color:#323D48;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    padding-left: 30px;
-    background-color: #323D48;
-    padding:20px;
+    padding: 10px 10px 20px 40px;
 }
 
 .excuses_vaildation {
@@ -220,7 +220,7 @@ i {
 .no,
 .no>h3 {
     color: white;
-    background-color: coral;
+    background-color: rgb(248, 136, 37);
     border-radius: 5px 20px;
 }
 
@@ -236,10 +236,12 @@ i {
     font-weight: 600;
     letter-spacing: 1px;
 }
-top_tip>h2
+
+.top_tips >h2 {
+    padding: 15px 200px;
+}
 
 .top_tips {
-
     display: flex;
     flex: 1 0 auto;
     flex-direction: column;
@@ -256,6 +258,9 @@ top_tip>h2
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+}
+.essentials>h3 {
+    
 }
 
 .essentials>p,
@@ -406,6 +411,7 @@ footer {
         display: flex;
         flex-direction: column;
         width: 100%;
+        gap: 20px;
     }
 
     .clarity>div,
@@ -417,8 +423,8 @@ footer {
         display: flex;
         flex-direction: column;
         align-items: end;
+        gap: 20px;
     }
-
     .excuses_list {
 
         display: flex;
