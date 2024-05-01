@@ -237,21 +237,18 @@ i {
     letter-spacing: 1px;
 }
 
-.top_tips >h2 {
-    padding: 15px 200px;
-}
 
 .top_tips {
     display: flex;
     flex: 1 0 auto;
-    flex-direction: column;
-    margin-top: 100px;
+    flex-direction: column;    
     width: 100%;
     text-align: center;
     gap: 30px;
-    /* background-image: url(../images/computer.webp); 
-    background-position: 70%;
-    background-color: #323D48cc; */
+    padding: 0 15px;
+}
+.top_tips {
+    margin:15px 0;
 }
 
 .essentials {
@@ -259,9 +256,7 @@ i {
     flex-direction: row;
     flex-wrap: wrap;
 }
-.essentials>h3 {
-    
-}
+
 
 .essentials>p,
 .tip_sleep>p {
@@ -274,16 +269,14 @@ i {
 }
 
 /* Contact Form */
-    .signup {
-        display: flex;
-        margin-top: 67px;
-        background-image: url(../images/hourglass.webp);
-        background-size: cover;
-        background-position: 73%;
-        padding: 20px 10% 0 10%;
-        flex-grow: 1;
-        max-height: 100%;
-    }
+.signup {
+    display: flex;
+    background-image: url(../images/hourglass.webp);
+    background-size: cover;
+    background-position: 73%;
+    padding: 20px 10% 0 10%;
+}
+
 
 
 .signup-form>h2{
@@ -373,7 +366,10 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-
+    .top_tips >h2 {
+        font-size: 1.8em;
+        margin: 20px 20px;
+    }
 
     #logo {
 
@@ -436,7 +432,8 @@ footer {
     .excuses_vaildation {
         justify-content: space-evenly;
     }
-
+    
+    
     #signup {
         display: flex;
         flex-direction: row;
