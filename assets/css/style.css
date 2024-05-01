@@ -140,8 +140,8 @@ main {
 /*excuses section*/
 .excuses {
     display: flex;
-   margin-top:15px;
-   gap:10px;
+    margin-top: 15px;
+    gap: 10px;
     /*creating gap across all items*/
     flex-direction: column;
     margin-bottom: 30px;
@@ -165,8 +165,8 @@ main {
     background-color: #ffffff;
     border-radius: 5px 20px;
     margin: 0px 10%;
-    color:#323D48;
-    padding:5px;
+    color: #323D48;
+    padding: 5px;
 }
 
 .excuses_title>i {
@@ -174,7 +174,7 @@ main {
 }
 
 .excuses_list {
-    color:#323D48;
+    color: #323D48;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -186,12 +186,12 @@ main {
     text-align: center;
     justify-content: space-between;
     align-items: baseline;
- 
+
 }
 
 i {
     size: 3px;
-    padding:2px;
+    padding: 2px;
     color: #323D48;
 }
 
@@ -241,14 +241,15 @@ i {
 .top_tips {
     display: flex;
     flex: 1 0 auto;
-    flex-direction: column;    
+    flex-direction: column;
     width: 100%;
     text-align: center;
     gap: 30px;
     padding: 0 15px;
 }
+
 .top_tips {
-    margin:15px 0;
+    margin: 15px 0;
 }
 
 .essentials {
@@ -262,6 +263,7 @@ i {
 .tip_sleep>p {
     padding: 0 20px;
 }
+
 .essentials hr,
 .tip_sleep hr {
     border-top: 2px solid #323D48;
@@ -279,8 +281,8 @@ i {
 
 
 
-.signup-form>h2{
-    color:white;
+.signup-form>h2 {
+    color: white;
     margin-bottom: 30px;
 }
 
@@ -297,16 +299,17 @@ i {
     border-radius: 0% 20%;
     background-color: #ffffff9c;
     border: 2px solid #323d48;
-    padding:8%;
+    padding: 8%;
     text-align: left;
     letter-spacing: 1px;
-    margin-top:15%;
+    margin-top: 15%;
     max-width: 300px;
-} 
+}
 
 .radio>h3 {
     margin-bottom: 25px;
 }
+
 .letsgo {
     margin: 20px 0px;
     border-radius: 5px;
@@ -315,10 +318,12 @@ i {
     background-color: #DA6907;
     color: #ffffff;
 }
-#form>label{
-    color:white;
+
+#form>label {
+    color: white;
 }
-form div{
+
+form div {
     margin-bottom: 15%;
 }
 
@@ -366,7 +371,8 @@ footer {
     .nav-toggle-label {
         display: none;
     }
-    .top_tips >h2 {
+
+    .top_tips>h2 {
         font-size: 1.8em;
         margin: 20px 20px;
     }
@@ -421,6 +427,7 @@ footer {
         align-items: end;
         gap: 20px;
     }
+
     .excuses_list {
 
         display: flex;
@@ -432,8 +439,8 @@ footer {
     .excuses_vaildation {
         justify-content: space-evenly;
     }
-    
-    
+
+
     #signup {
         display: flex;
         flex-direction: row;
