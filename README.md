@@ -1,9 +1,11 @@
 
 <h1 align="center">Time Master Website </h1>
-[View the live project here.](https://monika-mak.github.io/time_master_PP1/)
 
 
-    ![Am I Responsive](/readme_documents/am_i_responsive.png)
+Link to deployed site: [Time Master](https://monika-mak.github.io/time_master_PP1/)
+
+![Am I responsive](readme_documents/responsive.png)
+
 
 Welcome to the Time Master website. This platform is designed for individuals who often find themselves saying, "there are never enough hours in the day." It aims to tackle common productivity issues by addressing the excuses we tell ourselves, providing a support system through powerful tips and insights for better time management. 
 
@@ -23,7 +25,7 @@ Welcome to the Time Master website. This platform is designed for individuals wh
 -   ### Design
     -   #### Colour Scheme
             The website uses a palette of green, white,and orange along with some charcolar and red. All colors were carefuly designed and matched for good contrast. 
-            ![Colors](/readme_documents/color_collection.png)
+            ![Colors](readme_documents/color_collection.png)
        
     -   #### Typography
         -   Open Sans is the primary font, chosen for its readability and modern appearance. 
@@ -35,15 +37,13 @@ Welcome to the Time Master website. This platform is designed for individuals wh
 
 
 *   ### Wireframes
-    -   Home Page & list Wireframe - [View](/readme_documents/wireframe1.png)
-    -   Homepage and list mock up  - [View](/readme_documents/wireframe2.png)
-    -   Contact and tips wireframe - [View](/readme_documents/wireframe3.png)
-    -  Contact and tips mockup     -[View](/readme_documents/wireframe4.png)
+    -   Home Page & list Wireframe - [View](readme_documents/wireframe1.png)
+    -   Homepage and list mock up  - [View](readme_documents/wireframe2.png)
+    -   Contact and tips wireframe - [View](readme_documents/wireframe3.png)
+    -  Contact and tips mockup     -[View](readme_documents/wireframe4.png)
 
     ## Features
         # Time Master Website Feature Overview
-
-
 
     ## Website Structure and Navigation
 
@@ -104,7 +104,6 @@ Welcome to the Time Master website. This platform is designed for individuals wh
 
     -   Interactive elements
 
-
     ## Resources and Tools Used
 
     ### Fonts and Icons
@@ -132,15 +131,14 @@ Welcome to the Time Master website. This platform is designed for individuals wh
     -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
     ### Lighthouse testing 
-    - results 84% on mobile, 99% on desktop,  
-
-
+        Page speed testing. 
+    
     ## Testing
 
         The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-        -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
-        -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
+        -   ![W3 Markup Validator](readme_documents/w3_validator.png) - 
+        -   [W3C CSS Validator]()
 
        - ### Testing User Stories from User Experience (UX) Section
             The website has been tested on multiple browsers (Chrome, Firefox, Safari) and on mobile, tablet, and desktop devices. 
