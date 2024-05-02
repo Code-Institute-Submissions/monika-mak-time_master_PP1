@@ -10,17 +10,17 @@ Welcome to the Time Master website. This platform is designed for individuals wh
 ## User Experience (UX)
 
 -   ### User stories
-    -    ### First Time Visor Goals
-
+        -  ### First Time Visor Goals
             1.Understand the main purpose of the site and learn about productivity.
             2.Identify personal productivity challenges and discover resources to improve time management.
             3.Navigate the site easily to find relevant information.
 
-    -   ### Returning Visitor Goals
+    -  ### Returning Visitor Goals
+    
             1.Recap impactful productivity strategies.
             2.Access interactive tools to enhance daily productivity.
 
-    -   ### Frequent User Goals
+    -  ### Frequent User Goals
             1.Stay updated with new productivity techniques or tools.
             2.Regularly review effective productivity strategies.
 
