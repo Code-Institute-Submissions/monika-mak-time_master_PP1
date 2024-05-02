@@ -36,27 +36,22 @@ header {
     align-items: center;
     font-size: 1.2em;
 }
-
-
 header a {
     text-decoration-line: none;
     color: white;
 }
-
 h1,
 h3 {
     font-family: "Montserrat", sans-serif;
     color: #323d48;
     letter-spacing: 1px;
 }
-
 #logo {
     font-weight: 800;
     letter-spacing: 0.3px;
     color: white;
     font-size: 30px;
 }
-
 #menu {
     font-family: "Montserrat", sans-serif;
     letter-spacing: 1px;
@@ -64,15 +59,12 @@ h3 {
     font-weight: 700;
     font-size: 110%;
 }
-
 #menu>li {
     align-items: center;
 }
-
 .active {
     border-bottom: 1px solid white;
 }
-
 /*nav style with dropdown toggles */
 nav {
     position: absolute;
@@ -189,12 +181,10 @@ main {
 
 }
 
-i { font-size:2px;
-    padding: 2px;
+i { 
+    padding:2px;
     color: #323D48;
 }
-
-
 
 .yes,
 .no {
@@ -275,8 +265,6 @@ i { font-size:2px;
     background-position: 73%;
     padding: 20px 10% 0 10%;
 }
-
-
 
 .signup-form>h2 {
     color: white;
