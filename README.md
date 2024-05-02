@@ -126,19 +126,21 @@ Welcome to the Time Master website. This platform is designed for individuals wh
     ### Testing and Responsiveness
     - [Am I Responsive?](http://ami.responsivedesign.is/) - Showcased the website on a range of devices to check responsiveness.
 
-
     ### Languages Used
 
     -   [HTML5](https://en.wikipedia.org/wiki/HTML5)
     -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
+
+    ### Lighthouse testing 
+    - results 84% on mobile, 99% on desktop,  
 
 
     ## Testing
 
         The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-        -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)  - 
-        -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) -
+        -   [W3C Markup Validator](https://jigsaw.w3.org/css-validator/#validate_by_input) - 
+        -   [W3C CSS Validator](https://jigsaw.w3.org/css-validator/#validate_by_input)
 
        - ### Testing User Stories from User Experience (UX) Section
             The website has been tested on multiple browsers (Chrome, Firefox, Safari) and on mobile, tablet, and desktop devices. 
