@@ -24,8 +24,8 @@ Welcome to the Time Master website. This platform is designed for individuals wh
 
 -   ### Design
     -   #### Colour Scheme
-            The website uses a palette of green, white,and orange along with some charcolar and red. All colors were carefuly designed and matched for good contrast. 
-            ![Colors](readme_documents/color_collection.png)
+        - The website uses a palette of green, white,and orange along with some charcolar and red. All colors were carefuly designed and matched for good contrast. 
+        ![Colors](readme_documents/color_collection.png)
        
     -   #### Typography
         -   Open Sans is the primary font, chosen for its readability and modern appearance. 
@@ -43,7 +43,7 @@ Welcome to the Time Master website. This platform is designed for individuals wh
     -  Contact and tips mockup     -[View](readme_documents/wireframe4.png)
 
     ## Features
-        # Time Master Website Feature Overview
+       Time Master Website Feature Overview
 
     ## Website Structure and Navigation
 
@@ -96,7 +96,7 @@ Welcome to the Time Master website. This platform is designed for individuals wh
     - **Community Features:** Options for users to share their own tips or success stories, fostering a community of productivity enthusiasts.
 
     ### Navigation Bar: Responsive across devices, featuring a logo and easy-to-access links for Home, Tips, and Contact sections.
-        ### Hero Image: A large image sets the motivational tone, focusing on productivity.
+    -   Hero Image: A large image sets the motivational tone, focusing on productivity.
         Main Content: Challenges users to consider if they have productivity issues and provides quick navigation to tips.
         Footer: Contains links and social media icons for extended interaction.
 
@@ -131,14 +131,14 @@ Welcome to the Time Master website. This platform is designed for individuals wh
     -   [CSS3](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)
 
     ### Lighthouse testing 
-        Page speed testing. 
+    Page speed testing. 
     
     ## Testing
 
-        The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
+    The W3C Markup Validator and W3C CSS Validator Services were used to validate every page of the project to ensure there were no syntax errors in the project.
 
-        -   ![W3 Markup Validator](readme_documents/w3_validator.png) - 
-        -   [W3C CSS Validator]()
+    -   ![W3 Markup Validator](readme_documents/w3_validator.png)
+    -   [W3C CSS Validator]()
 
        - ### Testing User Stories from User Experience (UX) Section
             The website has been tested on multiple browsers (Chrome, Firefox, Safari) and on mobile, tablet, and desktop devices. 
@@ -146,11 +146,10 @@ Welcome to the Time Master website. This platform is designed for individuals wh
 
        - ### Further Testing
 
-        - Friends and family tested the site for usability issues and bugs.
+            Friends and family tested the site for usability issues and bugs.
 
-
-        ### Known Bugs
-        - no known bugs recorded; 
+    - ### Known Bugs
+        no known bugs recorded; 
 
     ## Deployment
 
@@ -158,26 +157,26 @@ Welcome to the Time Master website. This platform is designed for individuals wh
 
     The project was deployed to GitHub Pages using the following steps...
 
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    1. Log in to GitHub and locate the [time_master_PP1 Repository](https://github.com/monika-mak/time_master_PP1)
     2. At the top of the Repository (not top of page), locate the "Settings" Button on the menu.
         - Alternatively Click [Here](https://raw.githubusercontent.com/) for a GIF demonstrating the process starting from Step 2.
     3. Scroll down the Settings page until you locate the "GitHub Pages" Section.
     4. Under "Source", click the dropdown called "None" and select "Master Branch".
     5. The page will automatically refresh.
-    6. Scroll back down through the page to locate the now published site [link](https://github.com) in the "GitHub Pages" section.
+    6. Scroll back down through the page to locate the now published site [Time Master](https://monika-mak.github.io/time_master_PP1/) in the "GitHub Pages" section.
 
     ### Forking the GitHub Repository
 
     By forking the GitHub Repository we make a copy of the original repository on our GitHub account to view and/or make changes without affecting the original repository by using the following steps...
 
-    1. Log in to GitHub and locate the [GitHub Repository](https://github.com/)
+    1. Log in to GitHub and locate the [time_master_PP1 Repository](https://github.com/monika-mak/time_master_PP1)
     2. At the top of the Repository (not top of page) just above the "Settings" Button on the menu, locate the "Fork" Button.
     3. You should now have a copy of the original repository in your GitHub account.
 
  
     - ## Credits
 
-    ### Content 
+        ### Content 
 
         Content was inspired by a Video about completing a month task in a day, various resources were used listed below :
         - [How To Finish One Month of Work Today](https://www.youtube.com/watch?v=Q7Phkq0BUXM)  
@@ -195,9 +194,9 @@ Welcome to the Time Master website. This platform is designed for individuals wh
 
 
     ### Acknowledgements
-        A massive shout-out to:
+    A massive shout-out to:
 
-        Amy Richardson- for constant support as well as great advices throughout the process; 
-        Femi-  my mentor who utilised our meetings very well, giving constructive feedback and excellent practise. 
-        Valentyn_5P- for great team support;
-        Huge Thanks to the community for great support and helping me feel like i am not here alone. 
+    Amy Richardson- for constant support as well as great advices throughout the process; 
+    Femi-  my mentor who utilised our meetings very well, giving constructive feedback and excellent practise. 
+    Valentyn_5P- for great team support;
+    Huge Thanks to the community for great support and helping me feel like i am not here alone. 
